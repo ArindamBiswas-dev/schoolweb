@@ -1,0 +1,112 @@
+h1 , h2 , h3{
+    font-family: 'Holtwood One SC', serif;
+}
+
+li{
+    padding-bottom: 7px !important;
+}
+
+li a{
+    text-decoration: none !important;
+    font-size: 14px;
+    color: white;
+    transition: all .3s;
+}
+
+li > a:hover{
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    color: white !important;
+}
+
+.icons {
+    padding: 7px;
+    border-radius: 5px;
+    background-color: white;
+    transition: all .3s;
+}
+
+.faceBook:hover {
+    padding: 7px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white !important;
+}
+
+.insTagram:hover {
+    padding: 7px;
+    border-radius: 5px;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    color: white !important;
+}
+
+.twiTTer:hover {
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #36D8FF;
+    color: white !important;
+}
+
+#backTotop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 200;
+    padding: 10px;
+    background-color: lightgreen;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(196, 238, 99, 0.2), 0 6px 20px 0 rgba(162, 238, 91, 0.19);
+    display: none;
+}
+
+#backTotop:hover{
+    outline: none;
+    background-color: lime;
+}
+
+#backTotop:focus{
+    outline: none;
+}
+
+/* **** navbar css **** */
+
+#brandImage{
+
+    height: 60px;
+    width: 60px;
+
+}
+
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+border-top: 1px solid yellow;
+border-bottom: 1px solid yellow;
+}
+
+
+@media only screen and (max-width: 449px){
+    #brandText{
+        font-size: 15px;
+    }
+    #brandImage{
+        height: 35px;
+        width: 35px;
+    }
+    #brandBtn{
+        font-size: 15px;
+        padding: 0 !important;
+    }
+    .nav-link{
+        font-size: 10px;
+    }
+    #messageFromHm{
+        font-size: 14px;
+    }
+}
